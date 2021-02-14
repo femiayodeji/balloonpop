@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject victoryText;
+    public GameObject restartButton;
 
     private int score = 0;
 
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
     private void Victory()
     {
         victoryText.SetActive(true);
+        restartButton.SetActive(true);
     }
 
     public void Restart()

@@ -1048,12 +1048,12 @@ GameObject:
   - component: {fileID: 1203053201}
   - component: {fileID: 1203053200}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1203053199
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1691,6 +1691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   victoryText: {fileID: 1345339467}
+  restartButton: {fileID: 1203053198}
 --- !u!1 &1820269211
 GameObject:
   m_ObjectHideFlags: 0
