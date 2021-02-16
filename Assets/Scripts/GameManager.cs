@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject victoryText;
     public GameObject restartButton;
-
+    public AudioSource victorySound;
+    
     private int score = 0;
 
     void Update()
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
  
     private void Victory()
     {
+        victorySound.Play();
         victoryText.SetActive(true);
         restartButton.SetActive(true);
     }
